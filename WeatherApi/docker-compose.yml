@@ -1,0 +1,8 @@
+services:
+  weather-api:
+    build: .
+    ports:
+      - "9779:9779"
+    environment:
+      - ASPNETCORE_URLS=http://+:9779
+    restart: unless-stopped
