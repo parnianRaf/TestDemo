@@ -1,15 +1,7 @@
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-WORKDIR /src
-
-COPY WeatherApi.csproj .
-RUN dotnet restore
-
-COPY . .
-RUN dotnet publish -c Release -o /app/publish
-
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
 WORKDIR /app
-COPY --from=build /app/publish .
+
+COPY publish/ .
 
 EXPOSE 9779
 ENTRYPOINT ["dotnet", "WeatherApi.dll"]

@@ -1,0 +1,9 @@
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/WeatherApi
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/appsettings.Development.json
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/appsettings.json
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/WeatherApi.dll
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/WeatherApi.deps.json
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/WeatherApi.runtimeconfig.json
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/WeatherApi.pdb
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/publish/Microsoft.OpenApi.dll

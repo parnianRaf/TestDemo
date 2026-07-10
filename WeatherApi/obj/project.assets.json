@@ -87,15 +87,16 @@
       "outputPath": "/Users/parnianrafei/Desktop/Projects/TestForStartProject/WeatherApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/Users/parnianrafei/Desktop/NuGet.Config",
         "/Users/parnianrafei/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/Users/parnianrafei/Documents/NuggetPackage": {},
         "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://repo.hmirror.ir/artifactory/api/nuget/mirror-nugget": {}
       },
       "frameworks": {
         "net9.0": {
